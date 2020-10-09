@@ -1,0 +1,94 @@
+WORK REQUIRED FOR TP1
+A complete and detailed architecture of the HugeNumberCalculator programme. It must contain :
+- A list of all .h and .c files.
+    addition.h  addition.c
+    subtraction.h subtraction.c
+    multiplication.h multiplication.c
+    division.h division.c
+    general.h general.c
+    main.c
+
+
+- The relationships envisaged between the different .h
+
+    main :
+        general
+    general :
+        addition
+        subtraction
+        multiplication
+        division
+    multiplication :
+        addition
+        subtraction
+    division :
+        addition
+        subtraction
+        multiplication
+
+
+- The signature of the functions by .h
+
+    FP1.1 : HugeNumberCalculator must allow for addition between two signed integers with no
+    limit on the number of digits.
+    SignedInt add_signed_int (SignedInt a, SignedInt b); 
+
+    FP1.2 : HugeNumberCalculator must allow the addition between two unsigned integers
+    without limit of number of digits
+    UnsignedInt add_unsigned_int (UnsignedInt a, UnsignedInt b); 
+
+    FP1.3 : HugeNumberCalculator must allow the addition between two signed or unsigned real
+    numbers without limit of number of digits.
+    UnsignedReal add_signed_or_unsigned_real (UnsignedReal a, UnsignedReal b);
+    
+    FP2.1 : HugeNumberCalculator must allow subtraction between two signed integers without
+    limit of number of digits.
+    UnsignedInt sub_signed_int (SignedInt a, SignedInt b);
+
+    FP2.2 : HugeNumberCalculator must allow subtraction between two unsigned integers
+    without limit of number of digits.
+    UnsignedInt sub_signed_int(UnsignedInt a, UnsignedInt b);
+
+    FP2.3 : HugeNumberCalculator must allow subtraction between two signed or unsigned real
+    numbers with no limit on the number of digits.
+    UnsignedReal sub_signed_or_unsigned_real (UnsignedReal a, UnsignedReal b);
+
+    FP3.1 : HugeNumberCalculator must be able to multiply between two signed integers
+    without limit of number of digits.
+    UnsignedInt multiply_signed_int (SignedInt a, SignedInt b);
+
+    FP3.2 : HugeNumberCalculator must be able to perform a multiplication between two
+    unsigned integers without limit of number of digits.
+    UnsignedInt multiply_unsigned_int (UnsignedInt a, UnsignedInt b);
+
+    FP3.3 : : HugeNumberCalculator must be able to perform a multiplication between two signed
+    or unsigned integer real numbers without limit of number of digits.
+    UnsignedInt multiply_signed_or_unsigned_int(UnsignedInt a, UnsignedInt b);
+
+    FP4.1:HugeNumberCalculator must be able to perform a Euclidean division between two
+    signed integers without limit of number of digits.
+    UnsignedInt Euclidean_signed_int(SignedInt a, SignedInt b)
+    
+    FP4.2 : HugeNumberCalculator must be able to perform a Euclidean division between two
+    unsigned integers without limit of number of digits.
+    UnsignedInt division_unsigned_int(UnsignedInt a, UnsignedInt b);
+    
+
+- The new data types defined
+A division of labour. This division must contain :
+- The method of work envisaged
+    Grant method
+- The tools used :
+    monday.com
+o Choice of FDI : 
+    github
+o Choice of collaborative work tools
+    visual live share / discord / GitHub
+aged
+- The tools used :
+o Choice of FDI : 
+    https://pablos-inc.monday.com/boards/789100917/views/12020230
+    github
+o Choice of collaborative work tools
+    visual live share / discord
+- The list of tasks to be carried out and its assignment to a member of the group.
